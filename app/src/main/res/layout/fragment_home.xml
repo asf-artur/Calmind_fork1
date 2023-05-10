@@ -58,14 +58,16 @@
         app:layout_constraintBottom_toBottomOf="parent"
         tools:layout_editor_absoluteX="69dp" />
 
-    <ImageButton
-        android:id="@+id/imageButton2"
-        android:layout_width="62dp"
-        android:layout_height="55dp"
-        android:layout_marginEnd="48dp"
-        android:layout_marginBottom="88dp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/home_btn"
+    <Button
+        android:id="@+id/button"
+        android:layout_width="46dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="91dp"
+        android:background="@drawable/krug2"
+        android:text="+"
+        android:textColor="#000000"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 

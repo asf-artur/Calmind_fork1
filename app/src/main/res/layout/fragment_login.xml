@@ -11,6 +11,7 @@
         android:layout_width="412dp"
         android:layout_height="566dp"
         android:layout_marginTop="84dp"
+        android:background="@drawable/krug_btn"
         android:src="@drawable/login_backgr"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -58,13 +59,14 @@
         android:id="@+id/textView2"
         android:layout_width="409dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
         android:layout_marginTop="52dp"
         android:text="Добро пожаловать!"
         android:textAlignment="center"
         android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="1dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView3"
@@ -93,15 +95,18 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonLogin"
         android:layout_width="176dp"
         android:layout_height="48dp"
         android:layout_marginStart="117dp"
         android:layout_marginTop="535dp"
-        android:background="@drawable/krug"
+        android:background="@drawable/krug_btn"
         android:backgroundTint="#ffffff"
         android:text="Войти"
+        android:textColor="@color/black"
+        app:cornerRadius="12dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:strokeColor="#ffffff" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
